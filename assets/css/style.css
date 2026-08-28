@@ -196,6 +196,15 @@ a:hover { text-decoration: underline; }
   margin-left: 0.35rem;
   vertical-align: middle;
 }
+a.entry-link {
+  border: 1px solid var(--accent);
+  transition: all 0.15s ease;
+}
+a.entry-link:hover {
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+}
 
 /* ===== Teaching table ===== */
 .teach-block { margin-bottom: 2rem; }
